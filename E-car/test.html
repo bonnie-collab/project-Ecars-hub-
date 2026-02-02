@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+       <link rel="stylesheet" href="dist/css/bootstrap.css">
+        <style>
+            img:hover{
+                transform: scale(1.2);
+                transition: 3s;
+            }
+        </style>
+        <script src="dist/js/bootstrap.js"></script>
+</head>
+<body>
+
+         <!-- section two starts here -->
+         <section class="row">
+            <div class="col-lg-12">
+                <!-- Below is the division that will hold all the contents of the carousel -->
+                 <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- below is the div that will hold all the images -->
+                     <div class="carousel-inner">
+                        <!-- below is the div with the 1st image -->
+                         <div class="carousel-item">
+                            <img src="images/slide1.jpg" alt="slide one" class="d-block w-100">
+                         </div>
+                        <!-- below is the div with the 2nd image -->
+                         <div class="carousel-item active">
+                            <img src="images/slide2.jpg" alt="slide two" class="d-block w-100">
+                         </div>
+                        <!-- below is the div with the 3rd image -->
+                         <div class="carousel-item">
+                            <img src="images/slide3.jpg" alt="Slide three" class="d-block w-100">
+                         </div>
+                         <!-- Below is the div with the 4th image -->
+                          <div class="carousel-item">
+                            <img src="images/slide4.jpg" alt="Slide four image" class="d-block w-100">
+                          </div>
+                     </div>
+
+                     <!-- Below are the controls -->
+                      <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon bg-danger"></span></a>
+
+                      <a href="#mycarousel" data-bs-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon bg-danger"></span></a>
+                 </div>
+            </div>
+         </section>
+        <!-- section two ends here -->
+    
+</body>
+</html>
