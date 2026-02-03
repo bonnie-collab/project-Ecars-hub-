@@ -1,0 +1,67 @@
+/* styling btn disable */
+#mine {
+    background-color: whitesmoke;
+    color: brown;
+    font-size: large;
+    font-weight: 500;
+    padding: 10px; 
+}
+
+/* hover disply on button explore */
+.A1:hover {
+    background-color: greenyellow;
+}
+
+/* font our fleet */
+.A2{
+    font-size: 40px;
+}
+/* hover img */
+img:hover{
+    transform: scale(1.2);
+}
+
+/* expertise section */
+.A3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.A4{
+    font-size: 30px;
+    font-weight: 550;
+}
+
+/* stlying book app btn */
+.A5:hover{
+    background-color: greenyellow;
+    padding: 5px;   
+}
+
+.A6{
+    background-color: goldenrod;
+    color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+}
+
+/* Sstlying hit the roaad section */
+.A7{
+    font-size: 80PX;
+    font-weight: 400PX;
+}
+
+/* STLYING footer links */
+.A8{
+    background-color: goldenrod;
+    text-decoration: none;
+    color: brown;
+    padding: 10px 20px;
+    border: 4px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.A8:hover{
+   background-color: gold; 
+   color: blue;
+}
