@@ -60,8 +60,275 @@ img:hover{
     border: 4px;
     border-radius: 5px;
     margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .A8:hover{
-   background-color: gold; 
+   background-color: gainsboro; 
    color: blue;
 }
+
+
+/* Styling the services page */
+/* image card overlay */
+#A15{
+    font-weight: 200PX;
+    font-size: 30PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* image card your journey */
+.wheel{
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* ends here */
+
+.A16{
+    font-display: unset;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* styling the h1 compressive */
+#A17{
+    font-size: 30px;
+    color: gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#A18{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40PX;
+    color: blue;
+}
+#A18:hover{
+    color: gold;
+}
+
+/* paragraphs */
+#A19{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+/* speciality detailing */
+.h4{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* paragraph */
+.par{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.roof{
+    justify-content: center;
+    align-content: center;
+}
+
+/* styling request services */
+#40{
+    padding: 12px 32px;
+    width: fit-content;
+    display: block;
+    margin:0 auto;
+}
+
+/* custom quote */
+.green{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.red{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* services */
+.ser{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* contacts */
+#pic:hover{
+    transform: none;
+}
+
+/* image cards of overlay service styling  */
+.services-section::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.65);
+}
+
+.services-content{
+  position:relative;
+  z-index:2;
+  text-align:center;
+}
+
+.services-content h1{
+  font-size:60px;
+  font-weight:800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.services-content p{
+  max-width:800px;
+  margin:auto;
+  font-size:18px;
+  opacity:0.9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.service-card{
+  border-radius:15px;
+  padding:30px 20px;
+  text-align:center;
+  background:#f8f9fa;
+  height:100%;
+  transition:0.3s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.service-card:hover{
+  transform:translateY(-5px);
+  background-color: goldenrod;
+  color: #f8f9fa;
+}
+
+.service-card i{
+  font-size:28px;
+  color:#ff6a00;
+}
+
+.service-card h5{
+  margin-top:15px;
+  font-weight:700;
+}
+
+.service-card p{
+  font-size:14px;
+  color:#6c757d;
+}
+
+.cards-row{
+  margin-top:-70px;
+  position:relative;
+  z-index:3;
+}
+
+/* image card stlying ends here */
+
+
+body{
+  background:#f3f4f6;
+}
+
+
+/* css styling to the caursels cards starts here */
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/* stlying the testemonials cards starts here */
+        body{
+            background-color: #f5f6f8;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .section-title-small{
+            color: #ff6b00;
+            font-weight: 600;
+            letter-spacing: 2px;
+            font-size: 14px;
+        }
+
+        .section-title{
+            font-weight: 700;
+            font-size: 42px;
+            color: #0f172a;
+        }
+
+        .title-underline{
+            width: 60px;
+            height: 4px;
+            background: #ff6b00;
+            margin: 15px auto 0;
+            border-radius: 5px;
+        }
+
+        .testimonial-card{
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            position: relative;
+            height: 100%;
+        }
+
+        .stars{
+            color: #ff6b00;
+            font-size: 18px;
+        }
+
+        .quote-icon{
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            font-size: 40px;
+            color: #e5e7eb;
+        }
+
+        .testimonial-text{
+            color: #475569;
+            font-style: italic;
+            margin: 20px 0 30px;
+            line-height: 1.6;
+        }
+
+        .profile{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .profile-circle{
+            width: 50px;
+            height: 50px;
+            background: #0f172a;
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+
+        .profile-name{
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+        .profile-role{
+            font-size: 14px;
+            color: #64748b;
+        }
+/* styling testesmomials ends here */

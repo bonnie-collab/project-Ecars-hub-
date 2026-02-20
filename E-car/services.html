@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
+
     <!-- linking boostrap and js script --> 
     <link rel="stylesheet" href="dist/css/bootstrap.css">
     <script src="dist/js/bootstrap.js"></script>
+
+    <!-- css styling  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- online linking of boostrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -21,7 +28,7 @@
                      </button>
 
                      <div id="navbarcontents" class="navbar-collapse collapse">
-                        <div class="navbar-nav">
+                        <div class="navbar-nav ms-auto">
                             <a href="index.html" class="nav-link active btn btn-warning rounded-pill px-4 m-2">Home</a>
                             <a href="services.html" class="nav-link btn btn-warning rounded-pill px-4 m-2">Service</a>
                             <a href="about.html" class="nav-link btn btn-warning rounded-pill px-4 m-2">About Us</a>
@@ -35,33 +42,73 @@
 
         <!-- image card overlay -->
        <section class="row">
-            <div class="col-lg-10">
+            <div class="col-lg-11 mx-auto">
                 <div class="card text-bg-dark text-white">
                      <img src="images/repair4.jpg" class="card-img rounded mx-auto d-block" alt="repair" width="200" height="400">
                      <div class="card-img-overlay">
-                     <h5 class="card-title pt-5 text-center text-primary"><b>World Class Care</b></h5>
-                     <h5 class="card-title pt-5 text-center text-primary"><b>Our Services</b></h5>
+                     <h5 class="card-title pt-5 text-center text-primary" id="A15"><b>World Class Care</b></h5>
+                     <h5 class="card-title pt-5 text-center text-primary" id="A15"><b>Our Services</b></h5>
 
-                      <p class="card-text text-center text-align-middle pt-5">From luxury rentals to expert engine repairs, <br> E-car Hub provides comprehensive automotive solutions tailored for the Kenyan environment.</p>
+                      <p class="card-text text-center text-align-middle pt-5 A16">From luxury rentals to expert engine repairs, E-car Hub provides comprehensive automotive solutions tailored for the Kenyan environment.</p>
 
                     </div>
                 </div>
             </div>
-       </section> <br>
+       </section>
+
+       <!-- smaller overlay cards services -->
+         <div class="container cards-row">
+             <div class="row g-4">
+
+                <div class="col-md-3">
+                     <div class="service-card shadow">
+                     <i class="bi bi-clock"></i>
+                     <h5>Quick Turnaround</h5>
+                     <p>We value your time with efficient service.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                     <div class="service-card shadow">
+                     <i class="bi bi-shield-check"></i>
+                     <h5>Quality Parts</h5>
+                     <p>Only genuine and certified auto parts used.</p>
+                     </div>
+                  </div>
+
+                   <div class="col-md-3">
+                     <div  class="service-card shadow">
+                     <i class="bi bi-lightning"></i>
+                     <h5>Expert Diagnostics</h5>
+                     <p>Pinpoint accuracy in identifying car issues.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-md-3">
+                     <div class="service-card shadow">
+                     <i class="bi bi-stars"></i>
+                     <h5>Attention to Detail</h5>
+                     <p>We don't miss the small things.</p>
+                     </div>
+                  </div>
+
+            </div>
+         </div>
+        <!-- ends of small overlay cards --> <br><br>
 
        <!-- section of compresive solutions -->
-       <center><h1>Comprehensive Solutions</h1></center> <br>
+       <center><h1 id="A17">Comprehensive Solutions</h1></center> <br>
 
        <section class="row">
             <div class="col-lg-3  text-center">
-                <div class="card shadow ">
+                <div class="card shadow">
 
                      <div class="card-header ">
                         <img src="images/Car_Grey.webp" alt="gray car" width="100">
                      </div>
 
-                      <div class="card-body">
-                        <h1><b>Car Rental</b></h1>
+                      <div class="card-body" id="A19">
+                        <h1 id="A18"><b>Car Rental</b></h1>
                         <p>A fleet of well mantained vehicle for every need. Economy cars for the city, errands, rugged SUVs for upcountry travel and luxury vehicles for speial occassions.</p>
 
                         <p><img src="images/tick 2.jpg" alt="tick" width="25px">Daily, weekly $ montly rates</p>
@@ -78,14 +125,14 @@
 
             <!-- section row 2 -->
              <div class="col-lg-3  text-center">
-                <div class="card shadow ">
+                <div class="card shadow">
 
                      <div class="card-header ">
                         <img src="images/re icon1.jpg" alt="gray car" width="100px">
                      </div>
 
-                      <div class="card-body">
-                        <h1><b>Mechanical Repairs</b></h1>
+                      <div class="card-body" id="A19">
+                        <h1 id="A18"><b>Mechanical Repairs</b></h1>
                         <p>Our state-of-the-art workshop handles everything from minor fixes to major overhauls. We specialize in engine diagnostics, brake systems, and suspension.</p>
 
                         <p><img src="images/tick 2.jpg" alt="tick" width="25px">Computerized Diagnostics</p>
@@ -105,11 +152,11 @@
              <div class="col-lg-3  text-center">
                 <div class="card shadow ">
 
-                     <div class="card-header ">
+                     <div class="card-header">
                         <img src="images/setting icon.jpg" alt="setting" width="100px">
                      </div>
 
-                      <div class="card-body">
+                      <div class="card-body" id="A19">
                         <h1 class="text-warning"><b>Routine Maintenance</b></h1>
                         <p>Keep your vehicle running smoothly with our scheduled maintenance packages. Oil changes, filter replacements, and fluid top-ups..</p>
 
@@ -132,11 +179,11 @@
              <div class="col-lg-3  text-center">
                 <div class="card shadow ">
 
-                     <div class="card-header ">
+                     <div class="card-header">
                         <img src="images/water 2.jpg" alt="water" width="100px">
                      </div>
 
-                      <div class="card-body">
+                      <div class="card-body" id="A19">
                         <h1 class="text-warning"><b>Professional Car Wash</b></h1>
                         <p>Give your car that showroom shine. We offer comprehensive cleaning packages including exterior foam wash, interior vacuuming, and waxing.</p>
 
@@ -165,7 +212,7 @@
                         <img src="images/water 2.jpg" alt="water" width="100px">
                      </div>
 
-                      <div class="card-body">
+                      <div class="card-body" id="A19">
                         <h1 class="text-warning"><b>Professional Car Wash</b></h1>
                         <p>Give your car that showroom shine. We offer comprehensive cleaning packages including exterior foam wash, interior vacuuming, and waxing.</p>
 
@@ -190,7 +237,7 @@
                         <img src="images/water 2.jpg" alt="water" width="100px">
                      </div>
 
-                      <div class="card-body">
+                      <div class="card-body" id="A19">
                         <h1 class="text-warning"><b>Body Work & Paint</b></h1>
                         <p>Professional dent repair and painting services to restore your vehicle's aesthetic appeal after minor accidents or wear and tear.</p>
 
@@ -201,12 +248,7 @@
 
                       </div> <br>
 
-                         <a href="#" class="btn btn-warning btn-lg rounded-pill px-4 m-2">Request For Service</a>
-
-
-                       <div class="card-footer">
-                        <b class="text-warning"></b> <br>
-                       </div>
+                         <a href="#" class="btn btn-warning py-2 rounded-pill px-4 m-2" id="40">Request For Service</a>
                     </div>
                 </div>
          </section> <br>
@@ -215,9 +257,9 @@
 
          <!-- special detailing  -->
           <center>
-            <h4 class="text-warning">SPECIALITY DETAILING</h4>
-            <h1><b>Premium Interior & <br> Exterior Detailing</b></h1>
-            <p class="text-center">Our advanced detailing service goes beyond a standard wash. We use specialized chemicals and equipment to deep clean your upholstery, steam your engine, and protect your paint with ceramic technology.</p>
+            <h4 class="text-warning h4">SPECIALITY DETAILING</h4>
+            <h1 class="h1"><b>Premium Interior & <br> Exterior Detailing</b></h1>
+            <p class="text-center par">Our advanced detailing service goes beyond a standard wash. We use specialized chemicals and equipment to deep clean your upholstery, steam your engine, and protect your paint with ceramic technology.</p>
 
             <!-- disabled link -->
              <div><button type="button" class="btn btn-outline-warning text-warning" disabled>Book Detailing</button></div> <br>
@@ -229,10 +271,10 @@
 
           <!-- special detailing ends here -->
           <section class="row m-2">
-            <div class="col-md-12">
+            <div class="col-md-12 mx-auto">
                
                 <div class="card text-white bg-dark border-dark mb-3" style="max-width: 80rem;">
-                  <img src="images/detailing2.jpg" class="card" alt="carwash1" width="100%" height="500px">
+                  <img src="images/detailing2.jpg" class="card" id="A9" alt="carwash1" width="100%" height="500px">
 
                 </div>
             </div>
@@ -240,15 +282,18 @@
           <!-- detailing end here -->
 
           <!-- custom qoute -->
-           <section class="row m-2">
+           <section class="row m-2 mx-auto">
                <div class="col-md-12">
                
                   <div class="card text-white bg-dark border-dark mb-3" style="max-width: 80rem;">
-                  <h1 class="card-text">Need a Custom Qoute</h1>
-                  <p class="card-text">For large Fleet Services or Specific Mechanical Repairs, Our team is ready to provide a tailored solution.</p>  
+                  <h1 class="card-text text-center green">Need a Custom Qoute</h1>
+                  <p class="card-text text center red">For large Fleet Services or Specific Mechanical Repairs. <br> Our team is ready to provide a tailored solution.</p>  
                   
+                  <!-- links -->
                    <a href="#" class=" card-link btn btn-outline-info rounded-pill px-4">Contact an Expert</a>
+
                    <a href="#" class="nav-link btn btn-warning rounded-pill px-4 m-2">Call Now</a>
+                   <!-- end of links -->
 
                </div>
             </div>
@@ -265,16 +310,16 @@
 
                 <!-- quick links -->
                  <div class="col-lg-3 text-center">
-                    <h1>Quick links</h1>
-                    <a href="index.html">Home page</a><br>
-                    <a href="about.html">About us</a><br>
-                    <a href="#">Services</a><br>
-                    <a href="#">Car Rental</a><br>
+                    <h1>Quick links</h1><br>
+                    <a href="index.html" class="A8">Home page</a><br> <br>
+                    <a href="about.html" class="A8">About us</a><br><br>
+                    <a href="services.html" class="A8">Services</a><br><br>
+                    <a href="#" class="A8">Car Rental</a><br><br>
                 </div>
                 <!-- links ends here -->
 
                 <!-- services -->
-                 <div class="col-lg-3 text-center">
+                 <div class="col-lg-3 text-center ser">
                     <h1>Services</h1>
                     <ul>
                         <li>Car repair & maintainance</li>
@@ -286,13 +331,13 @@
                 <!-- end of services -->
 
                 <!-- contact us -->
-                 <div class="col-lg-3 text-center">
+                 <div class="col-lg-3 text-center ser">
                     <h1>Contact Us</h1>
-                    <img src="images/location-pin.webp" alt="location-pin" width="5%" >Nairobi, Kenya <br><br>
+                    <img src="images/location-pin.webp" alt="location-pin" width="5%" id="pic">Nairobi, Kenya <br><br>
 
-                    <img src="images/phone_2.webp" alt="phone" width="5%"> +254 76000000 <br><br>
+                    <img src="images/phone_2.webp" alt="phone" width="5%" id="pic"> +254 76000000 <br><br>
 
-                    <img src="images/message1.webp" alt="phone" width="5%"> info@ecarhub.co.ke <br><br>
+                    <img src="images/message1.webp" alt="phone" width="5%" id="pic"> info@ecarhub.co.ke <br><br>
 
                     <!-- media links -->
                      <a href="htps://www.facebook.com"><img src="images/fb.webp" alt="fb" width="10%"></a>  
